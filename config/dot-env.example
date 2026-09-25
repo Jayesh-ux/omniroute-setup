@@ -1,0 +1,4 @@
+# ~/.omniroute/.env — created by setup.sh on each machine (never commit the real one).
+# Required so the gateway can encrypt/decrypt the stored provider API key.
+# NOTE: losing this key makes the stored provider key undecryptable.
+STORAGE_ENCRYPTION_KEY=<generated-by-setup.sh: openssl rand -hex 32>
